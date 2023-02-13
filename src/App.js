@@ -8,7 +8,7 @@ import './components/css/SectionLeft.css';
 
 function App() {
   return (
-    <div className="App container-fluid p-5">
+    <div className="App container-fluid p-0 p-sm-5">
       <main className='m-auto container d-lg-flex flex-lg-wrap'>
         <header className='container bg-warning p-5 border-dark border-bottom shadow-lg w-100'>
           <Header />
