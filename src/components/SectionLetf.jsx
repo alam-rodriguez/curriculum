@@ -43,10 +43,10 @@ const SectionLetf = () => {
 
       <div className='col-6 col-md-6 mt-5 col-lg-12'>
         <h1 className='h3 fw-bold'>Redes Sociales</h1>
-        <SectionLeftRedSocial Icon={BsGithub} red='Github' link='https://github.com/' />
-        <SectionLeftRedSocial Icon={BsLinkedin} red='Linkedin' link='https://www.linkedin.com/' />
-        <SectionLeftRedSocial Icon={BsWhatsapp} red='WhatsApp' link='https://www.whastsapp.com/' />
-        <SectionLeftRedSocial Icon={BsFacebook} red='Facebook' link='https://www.facebook.com/' />
+        <SectionLeftRedSocial Icon={BsGithub} red='Github' title='https://github.com/' url='https://github.com/' />
+        <SectionLeftRedSocial Icon={BsLinkedin} red='Linkedin' title='https://www.linkedin.com/' url='https://www.linkedin.com/' />
+        <SectionLeftRedSocial Icon={BsWhatsapp} red='WhatsApp' title='https://www.linkedin.com/' url='https://api.whatsapp.com/send/?phone=18293198834&text&app_absent=0' />
+        <SectionLeftRedSocial Icon={BsFacebook} red='Facebook' title='https://www.facebook.com/' url='https://www.facebook.com/' />
       </div>
       
     </div>

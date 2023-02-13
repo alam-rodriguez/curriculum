@@ -18,16 +18,19 @@ const Header = () => {
             Icon={BsTelephoneFill}
             text='Telefono'
             link='809-319-8834' 
+            url='https://api.whatsapp.com/send/?phone=18293198834&text&app_absent=0'
           />
           <HeaderLinks
             Icon={TbMail}
             text='E-mail'
             link='alamrd2016@gmail.com' 
+            url='mailto:alamrd2016@gmail.com?Subject=interesado%20en%20servicios%20de%20desarrollo%20web'
           />
           <HeaderLinks
             Icon={BsFillFilePersonFill}
             text='Github'
             link='Alam Rodriguez' 
+            url='https://github.com/alam-rodriguez'
           />
         </div>
 
