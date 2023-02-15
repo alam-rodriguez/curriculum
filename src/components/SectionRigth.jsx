@@ -30,11 +30,13 @@ const SectionRigth = () => {
           nombre='Programa de Facturacion y ventas.' 
           info='Este Programa de ventas y facturación fue mi primer proyecto nivel medio en cuanto a complejidad, este programa esta creado con HTML, CSS y JavaScript. Cabe destacar que este fue creado con puro JavaScript, es decir, sin ningún Framework ni librería, además el CSS Esta creado completamente desde 0. Este programa es capaz de registrar productos, clientes, y ventas con las informaciones de los productos que eligió el cliente.'
           imagen={Proyecto1}
+          url='https://alam-rodriguez.github.io/programa-facturacion/'
         />
         <SectionRigthProyecto 
           nombre='Calculadora.' 
           info='Esta calculadora esta creada con React y con la librería de math.js, esta calculadora fue uno de mis primeros proyectos realizados con Raact, gracias a este proyecto de calculadora pude comprender casi en su totalidad conceptos de React como el useState, Componente, Props, map, funciones en React, entre otros.'
           imagen={Proyecto2}
+          url='https://calculadora-react-alam.netlify.app/'
         />
 
         <div>
@@ -49,7 +51,7 @@ const SectionRigth = () => {
             <a className='col-12 col-sm-6 col-md-3' href="https://alam-rodriguez.github.io/pizza-mia-guerra/" target='_blank'>
               <img className='img-thumbnail w-100 h-auto' src={OtrosProyecto3} alt="" />
             </a>
-            <a className='col-12 col-sm-6 col-md-3' href="https://counter-app-10adb.web.app/" target='_blank'>
+            <a className='col-12 col-sm-6 col-md-3' href="https://alam-counter-app-react.netlify.app/" target='_blank'>
               <img className='img-thumbnail w-100 h-auto' src={OtrosProyecto4} alt="" />
             </a>
           </div>
