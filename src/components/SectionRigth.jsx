@@ -27,16 +27,16 @@ const SectionRigth = () => {
         <h1 className='h3 fw-bold mt-5'>Proyectos y Experiencia</h1>
 
         <SectionRigthProyecto 
+          nombre='Gallery App.' 
+          info='Este programa llamado Gallery App es un progrma capaz de guardar imagenes, como su nombre lo indica es una galeria de imagenes, entre las tecnogias que utilice se encuentran React, Firebase y Bootstrap. podemos logearnos con nuestra cuenta y una vez logeados podemos guardar informacion, y utilizar nuestra cuenta en otro dispositivo. los errores y excepciones para darle una buena experiencia a los usuarios. Este proyecto me ayudo bastante a entender firebase, realmente construirlo fue un desafio intersante y maravilloso.'
+          imagen={Proyecto2}
+          url='https://alam-gallery-app.netlify.app/'
+        />
+        <SectionRigthProyecto 
           nombre='Programa de Facturacion y ventas.' 
           info='Este Programa de ventas y facturación fue mi primer proyecto nivel medio en cuanto a complejidad, este programa esta creado con HTML, CSS y JavaScript. Cabe destacar que este fue creado con puro JavaScript, es decir, sin ningún Framework ni librería, además el CSS Esta creado completamente desde 0. Este programa es capaz de registrar productos, clientes, y ventas con las informaciones de los productos que eligió el cliente.'
           imagen={Proyecto1}
           url='https://alam-rodriguez.github.io/programa-facturacion/'
-        />
-        <SectionRigthProyecto 
-          nombre='Calculadora.' 
-          info='Esta calculadora esta creada con React y con la librería de math.js, esta calculadora fue uno de mis primeros proyectos realizados con Raact, gracias a este proyecto de calculadora pude comprender casi en su totalidad conceptos de React como el useState, Componente, Props, map, funciones en React, entre otros.'
-          imagen={Proyecto2}
-          url='https://calculadora-react-alam.netlify.app/'
         />
 
         <div>
@@ -48,10 +48,10 @@ const SectionRigth = () => {
             <a className='col-12 col-sm-6 col-md-3' href="https://alam-rodriguez.github.io/todo-js/" target='_blank'>
               <img className='img-thumbnail w-100 h-auto' src={OtrosProyecto2} alt="" />
             </a>
-            <a className='col-12 col-sm-6 col-md-3' href="https://alam-rodriguez.github.io/pizza-mia-guerra/" target='_blank'>
+            <a className='col-12 col-sm-6 col-md-3' href="https://alam-contact-app.netlify.app/" target='_blank'>
               <img className='img-thumbnail w-100 h-auto' src={OtrosProyecto3} alt="" />
             </a>
-            <a className='col-12 col-sm-6 col-md-3' href="https://alam-counter-app-react.netlify.app/" target='_blank'>
+            <a className='col-12 col-sm-6 col-md-3' href="https://calculadora-react-alam.netlify.app/" target='_blank'>
               <img className='img-thumbnail w-100 h-auto' src={OtrosProyecto4} alt="" />
             </a>
           </div>
