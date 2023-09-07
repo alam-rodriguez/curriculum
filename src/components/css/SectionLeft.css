@@ -1,0 +1,5 @@
+@media only screen and (min-width: 992px) {
+    .border-top.n1 {
+        border-right: 2px solid black;
+    }
+}
