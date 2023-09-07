@@ -30,7 +30,7 @@ const SectionRigth = () => {
         <SectionRigthProyecto 
           nombre='ComiApp' 
           info='ComiApp es una web para que los clientes de un restaurante ordenen, utilice react, vite y firebase, ademas utilize boostrap, firebase messaging, nodemailer y node js, useContext, react router, react icons, y otros packetes de react. ComiApp es una aplicacion web compleja que fue diseña para dar una buena experiencia a los usuarios y que estos tengan el deseo de usar la app para ordenar, ademas ComiApp cuenta con un complejo sistema de puntos, los clientes resciben x cada de puntos al hacer compras, los cuales se acumulan y despues, pueden usar estos puntos para obtener comidas totalmente gratis, estoy puede incrementar el interes de los usuarios a usar la app.'
-          link='https://alam-rodriguez.github.io/programa-facturacion/'
+          link='https://pizza-mia-guerra.netlify.app/'
           imagen={ComiApp}
           width='w-50'
         />
