@@ -60,16 +60,16 @@ const SectionRigth = () => {
         <div>
           <h2 className="fw-bold fs-6 pt-5">Otros proyectos:</h2>
           <div className="row">
-            <a className="col-12 col-sm-6 col-md-3" href="" target="_blank">
+            <a className="col-12 col-sm-6 col-md-3" href="https://fact-two.netlify.app/" target="_blank">
               <img className="img-thumbnail w-100 h-auto" src={Proyecto1} alt="" />
             </a>
-            <a className="col-12 col-sm-6 col-md-3" href="" target="_blank">
+            <a className="col-12 col-sm-6 col-md-3" href="https://calculadora-react-alam.netlify.app/" target="_blank">
               <img className="img-thumbnail w-100 h-auto" src={Proyecto2} alt="" />
             </a>
             <a className="col-12 col-sm-6 col-md-3" href="https://alam-rodriguez.github.io/alam-rodriguez-curriculum_Alam_Rodriguez.github.io/" target="_blank">
               <img className="img-thumbnail w-100 h-auto" src={OtrosProyecto1} alt="" />
             </a>
-            <a className="col-12 col-sm-6 col-md-3" href="https://alam-rodriguez.github.io/pizza-mia-guerra/" target="_blank">
+            <a className="col-12 col-sm-6 col-md-3" href="https://alam-contact-app.netlify.app/" target="_blank">
               <img className="img-thumbnail w-100 h-auto" src={ContactApp} alt="" />
             </a>
           </div>
